@@ -153,7 +153,7 @@ def Vc_interpol(r,X,Vc):
     Vc_new = f(r)
     return Vc_new
 ####3
-data_path = "/Users/atalianb/Documents/data_LBSG/Blok_McGaugh_& _Rubin_(2001)/"
+data_path = "/home/atalia/New_simpleMC_version/simplemc/data/Blok_McGaugh_&_Rubin_(2001)/"
 data = np.loadtxt(data_path+'ESO3020120.dat')
 Galaxy_name = 'ESO3020120'
 vecRp_data = np.array([row[1] for row in data])# galactocentric distance [kpc]
@@ -164,7 +164,7 @@ params = np.array([10.**(-2.3162238E+01),
                 10.**(-1.2403674E-02),
                 10.**(-3.4100074E+00),
                 10.**(-9.4045031E-01)])
-path_nested = '/chains/ESO3020120'
+path_nested = '/home/atalia/fgivenx_plots/chains/ESO3020120'
 chains = np.loadtxt(path_nested+'/Rotation_phy_RC_nested_multi_1.txt')
 phi0 = params[2]
 phi1 = params[3]
@@ -185,16 +185,16 @@ M_l2_units = M_l2*eps*1.34e-10/m_a
 Vc_l0 = Vc_interpol(vecRp_data,X012,Vc2_l0)
 Vc_l1 = Vc_interpol(vecRp_data,X012,Vc2_l1)
 Vc_l2 = Vc_interpol(vecRp_data,X012,Vc2_l2)
-plt.errorbar(vecRp_data,vecvRp_data,yerr=vecerrvRp_data,fmt='.',label='data')
-plt.plot(vecRp_data,Vc_m_a_eps_l012(vecRp_data,params),label='total')
-plt.ylabel(r'$v_{c}(r)$[km/s]')
-plt.xlabel("r[kpc]")
-plt.title(Galaxy_name)
-plt.plot(X0_units,np.sqrt(Vc2_l0),label=r'$\psi_{100}$')
-plt.plot(X0_units,np.sqrt(Vc2_l1),label=r'$\psi_{210}$')
-plt.plot(X0_units,np.sqrt(Vc2_l2),label=r'$\psi_{320}$')
-plt.legend(loc='lower right')
-plt.xlim(0,vecRp_data[-1])
+#plt.errorbar(vecRp_data,vecvRp_data,yerr=vecerrvRp_data,fmt='.',label='data')
+#plt.plot(vecRp_data,Vc_m_a_eps_l012(vecRp_data,params),label='total')
+#plt.ylabel(r'$v_{c}(r)$[km/s]')
+#plt.xlabel("r[kpc]")
+#plt.title(Galaxy_name)
+#plt.plot(X0_units,np.sqrt(Vc2_l0),label=r'$\psi_{100}$')
+#plt.plot(X0_units,np.sqrt(Vc2_l1),label=r'$\psi_{210}$')
+#plt.plot(X0_units,np.sqrt(Vc2_l2),label=r'$\psi_{320}$')
+#plt.legend(loc='lower right')
+#plt.xlim(0,vecRp_data[-1])
 #####
 ##
 #######
@@ -211,8 +211,8 @@ def PPS(r,theta):
     Anfw,rs,phi0,phi1,phi2=theta
     Vc = Vc_m_a_eps_l012(r,theta)
     return Vc
-cbar = plot_contours(PPS,x,samples,contour_line_levels=[1],colors=plt.cm.Greys_r,alpha=0.8,parallel=22)#,ny=100)
-cbar = plt.colorbar(cbar,ticks=[0,1])
+cbar = plot_contours(PPS,x,samples,contour_line_levels=[1,2],colors=plt.cm.Greys_r,alpha=0.8,parallel=22)#,ny=100)
+cbar = plt.colorbar(cbar,ticks=[0,1,2])
 cbar.set_ticklabels(['',r'$1\sigma$',r'$2\sigma$'])
 plt.ylabel(r'$v_{c}(r)$[km/s]')
 plt.xlabel("r[kpc]")
