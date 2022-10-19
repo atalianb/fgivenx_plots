@@ -1,0 +1,1562 @@
+=======================
+Ejecutandose en:tochtli64-01.nucleares.unam.mx
+Fecha: Wed Apr 6 22:54:46 CDT 2022
+Directorio:/home/atalianb/SimpleMC_for_nested
+Recursos asignados_
+
+Total: 108 cpus
+======================
+=====================
+SALIDA
+=====================
+/home/atalianb/SimpleMC_for_nested/simplemc/analyzers/GA_deap.py:13: UserWarning: Pleas install DEAP library if you want to use ga_deap genetic algorithms.
+  warnings.warn("Pleas install DEAP library if you want to use ga_deap genetic algorithms.")
+/home/atalianb/SimpleMC_for_nested/simplemc/analyzers/elitism.py:6: UserWarning: Pleas install DEAP library if you want to use ga_deap genetic algorithms.
+  warnings.warn("Pleas install DEAP library if you want to use ga_deap genetic algorithms.")
+/home/atalianb/SimpleMC_for_nested/simplemc/analyzers/neuralike/NeuralNet.py:12: UserWarning: Please install tensorflow library if you want to use neural networks
+  warnings.warn("Please install tensorflow library if you want to use neural networks")
+/home/atalianb/SimpleMC_for_nested/simplemc/likelihoods/JLA_SN.py:24: UserWarning: Please import GetDist library if you want to make getdist posterior plots.
+  warnings.warn("Please import GetDist library if you want to make getdist posterior plots.")
+INFO:simplemc:simplemc/chains/Rotation_phy_RC_nested_dynesty_multi file already exists, simplemc/chains/Rotation_phy_RC_nested_dynesty_multi_new was created
+INFO:simplemc:Using 54 processors of 56 .
+INFO:simplemc:
+	nlivepoints: 250
+	accuracy: 0.02
+	nested type: multi
+	engine: dynesty
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/var/spool/pbs/mom_priv/jobs/1000566.tochtli-pbs.nucleares.unam.mx.SC: line 41: 18979 Segmentation fault      (core dumped) python test.py > log_test.out
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+==================
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:35: RuntimeWarning: invalid value encountered in add
+  return (K0 + 2.*K1 + 2.*K2 + K3)/6.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:110: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:75: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:78: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:81: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:89: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:90: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalianb/SimpleMC_for_nested/simplemc/functions_MultiLBS_012.py:91: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
