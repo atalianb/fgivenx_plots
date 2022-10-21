@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/atalia/fgivenx_plots/plots_fgivenx.py", line 157, in <module>
+    data = np.loadtxt(data_path+'ESO11616.dat')
+  File "/usr/local/lib64/python3.9/site-packages/numpy/lib/npyio.py", line 1042, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib64/python3.9/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib64/python3.9/site-packages/numpy/lib/_datasource.py", line 532, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /home/atalia/New_simpleMC_version/simplemc/data/Blok_McGaugh_&_Rubin_(2001)/ESO11616.dat not found.
