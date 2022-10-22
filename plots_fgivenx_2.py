@@ -165,7 +165,7 @@ params = np.array([10.**(-2.3292979E+01),
     10.**(-1.6472437E+00),
     10.**(-7.7599173E-01)])
 path_nested = '/home/atalia/fgivenx_plots/chains/U11557'
-chains = np.loadtxt(path_nested+'/Rotation_phy_RC_nested_dynesty_multi_new_1.txt')
+chains = np.loadtxt(path_nested+'/Rotation_phy_RC_nested_dynesty_multi_1.txt')
 phi0 = params[2]
 phi1 = params[3]
 phi2 = params[4]
