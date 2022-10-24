@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "plots_fgivenx_home.py", line 166, in <module>
+    chains = np.loadtxt(path_nested+'/Rotation_phy_RC_nested_dynesty_multi_1.txt')
+  File "/Users/atalianb/miniconda3/envs/py37/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/Users/atalianb/miniconda3/envs/py37/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/Users/atalianb/miniconda3/envs/py37/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+    raise IOError("%s not found." % path)
+OSError: /Users/atalianb/Documents/Doctorado/fgivenx_plots/chains/F730-V1/Rotation_phy_RC_nested_dynesty_multi_1.txt not found.
