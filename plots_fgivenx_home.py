@@ -154,15 +154,15 @@ def Vc_interpol(r,X,Vc):
     return Vc_new
 ####3
 data_path = "/Users/atalianb/Documents/data_LBSG/data_used_by_Tula/"
-data = np.loadtxt(data_path+'U11648.dat')
-Galaxy_name = 'UGC11648'
+data = np.loadtxt(data_path+'F730-V1.dat')
+Galaxy_name = 'F730-V1'
 vecRp_data = np.array([row[1] for row in data])# galactocentric distance [kpc]
 vecvRp_data = np.array([row[5] for row in data])# rotation velocity [km/s]
 vecerrvRp_data = np.array([row[6] for row in data])# error in rotation velocity [km/s]
-params = np.array([10**(-2.3464225E+01),10**(-3.2565943E+00),
-                10**(-1.4565523E-02),10**(-1.0716972E+00),
-                10**(-7.6590629E-01)])
-path_nested = '/Users/atalianb/Documents/Doctorado/fgivenx_plots/chains/U11648'
+params = np.array([10**(-2.3376454E+01),10**(-3.2174385E+00),
+                10**(-5.7542841E-03),10**(-1.8796041E+00),
+                10**(-9.5776854E-01)])
+path_nested = '/Users/atalianb/Documents/Doctorado/fgivenx_plots/chains/F730-V1'
 chains = np.loadtxt(path_nested+'/Rotation_phy_RC_nested_dynesty_multi_1.txt')
 phi0 = params[2]
 phi1 = params[3]
@@ -196,11 +196,11 @@ Vc_l2 = Vc_interpol(vecRp_data,X012,Vc2_l2)
 #####
 ##
 #######
-m_a_new = 10.**(chains.T[2][2000:10000])
-eps_new = 10.**(chains.T[3][2000:10000])
-phi0_new = 10.**(chains.T[4][2000:10000])
-phi1_new = 10.**(chains.T[5][2000:10000])
-phi2_new = 10.**(chains.T[6][2000:10000])
+m_a_new = 10.**(chains.T[2][1808:9041])
+eps_new = 10.**(chains.T[3][1808:9041])
+phi0_new = 10.**(chains.T[4][1808:9041])
+phi1_new = 10.**(chains.T[5][1808:9041])
+phi2_new = 10.**(chains.T[6][1808:9041])
 samples = np.array([(Anfw,rs,phi0,phi1,phi2) for Anfw,rs,phi0,phi1,phi2 in zip(m_a_new,eps_new,phi0_new,phi1_new,phi2_new)]).copy()
 ####
 nx = 100
