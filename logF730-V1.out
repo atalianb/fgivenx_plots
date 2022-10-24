@@ -5034,3 +5034,308 @@ plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_div
   return (units*M)/r
 plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
   return (units*M)/r
+ 41%|████      | 2002/4916 [6:47:09<8:15:43, 10.21s/it]plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:80: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+plots_fgivenx_home.py:83: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+plots_fgivenx_home.py:86: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+plots_fgivenx_home.py:93: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+plots_fgivenx_home.py:94: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+plots_fgivenx_home.py:95: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+plots_fgivenx_home.py:96: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+plots_fgivenx_home.py:93: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+plots_fgivenx_home.py:94: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+plots_fgivenx_home.py:95: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+plots_fgivenx_home.py:96: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:80: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+plots_fgivenx_home.py:83: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+plots_fgivenx_home.py:86: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+plots_fgivenx_home.py:93: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+plots_fgivenx_home.py:94: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+plots_fgivenx_home.py:95: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+plots_fgivenx_home.py:96: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+plots_fgivenx_home.py:93: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+plots_fgivenx_home.py:94: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+plots_fgivenx_home.py:95: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+plots_fgivenx_home.py:96: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+ 41%|████      | 2009/4916 [6:48:09<7:49:47,  9.70s/it]
