@@ -154,15 +154,15 @@ def Vc_interpol(r,X,Vc):
     return Vc_new
 ####3
 data_path = "/home/atalia/New_simpleMC_version/simplemc/data/data_used_by_Tula/"
-data = np.loadtxt(data_path+'ESO2060140.dat')
-Galaxy_name = 'ESO2060140'
+data = np.loadtxt(data_path+'U11454.dat')
+Galaxy_name = 'UGC11454'
 vecRp_data = np.array([row[1] for row in data])# galactocentric distance [kpc]
 vecvRp_data = np.array([row[5] for row in data])# rotation velocity [km/s]
 vecerrvRp_data = np.array([row[6] for row in data])# error in rotation velocity [km/s]
-params = np.array([10**(-2.3255124E+01),10**(-3.2874958E+00),
-                10**(-7.0844243E-04),10**(-3.6560248E+00),
-                10**(-1.0160040E+00)])
-path_nested = '/home/atalia/fgivenx_plots/chains/ESO2060140'
+params = np.array([10**(-2.3461536E+01),10**(-3.2000774E+00),
+                10**(-5.9210412E-03),10**(-1.6869257E+00),
+                10**(-8.2667164E-01)])
+path_nested = '/home/atalia/fgivenx_plots/chains/U11454'
 chains = np.loadtxt(path_nested+'/Rotation_phy_RC_nested_dynesty_multi_1.txt')
 phi0 = params[2]
 phi1 = params[3]
@@ -196,11 +196,11 @@ Vc_l2 = Vc_interpol(vecRp_data,X012,Vc2_l2)
 #####
 ##
 #######
-m_a_new = 10.**(chains.T[2][3666:18332])
-eps_new = 10.**(chains.T[3][3666:18332])
-phi0_new = 10.**(chains.T[4][3666:18332])
-phi1_new = 10.**(chains.T[5][3666:18332])
-phi2_new = 10.**(chains.T[6][3666:18332])
+m_a_new = 10.**(chains.T[2][1941:9703])
+eps_new = 10.**(chains.T[3][1941:9703])
+phi0_new = 10.**(chains.T[4][1941:9703])
+phi1_new = 10.**(chains.T[5][1941:9703])
+phi2_new = 10.**(chains.T[6][1941:9703])
 samples = np.array([(Anfw,rs,phi0,phi1,phi2) for Anfw,rs,phi0,phi1,phi2 in zip(m_a_new,eps_new,phi0_new,phi1_new,phi2_new)]).copy()
 ####
 nx = 100
@@ -222,5 +222,5 @@ plt.plot(X0_units,np.sqrt(Vc2_l2),label=r'$\psi_{320}$',linewidth=2.5)
 plt.legend(loc='lower right')
 plt.xlim(0,vecRp_data[-1])
 plt.title(Galaxy_name)
-plt.ylim(top=150)
+plt.ylim(top=185)
 plt.savefig('fgivenx_VcMultiL012_'+Galaxy_name+'_parallel_20porcent_burnin.pdf')
