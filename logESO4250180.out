@@ -1,0 +1,522 @@
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+  0%|          | 0/5327 [00:00<?, ?it/s]  0%|          | 22/5327 [00:00<01:17, 68.18it/s]  0%|          | 22/5327 [00:19<01:17, 68.18it/s]/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+  1%|          | 44/5327 [02:51<6:44:03,  4.59s/it]/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:80: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:83: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:86: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:93: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:94: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:95: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:96: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:93: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:94: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:95: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:96: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+  1%|          | 66/5327 [05:37<8:41:05,  5.94s/it]/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:80: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:83: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:86: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:93: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:94: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:95: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:96: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:93: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:94: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:95: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:96: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+  2%|▏         | 88/5327 [08:27<9:40:24,  6.65s/it]/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:80: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:83: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:86: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:93: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:94: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:95: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:96: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:93: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:94: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:95: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:96: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+  2%|▏         | 110/5327 [11:39<10:42:14,  7.39s/it]/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+  2%|▏         | 132/5327 [14:49<11:16:32,  7.81s/it]/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+  3%|▎         | 154/5327 [17:59<11:37:17,  8.09s/it]/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+  3%|▎         | 176/5327 [20:10<10:35:44,  7.41s/it]/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+  4%|▎         | 198/5327 [21:45<9:10:07,  6.44s/it] /home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+  4%|▍         | 220/5327 [23:12<8:03:04,  5.68s/it]/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:80: RuntimeWarning: overflow encountered in double_scalars
+  dy[5] = y[0]**2.*x**2.
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:83: RuntimeWarning: overflow encountered in double_scalars
+  dy[9] = y[6]**2.*x**2.
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:86: RuntimeWarning: overflow encountered in double_scalars
+  dy[13] = y[10]**2.*x**2.
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:93: RuntimeWarning: overflow encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:94: RuntimeWarning: overflow encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:95: RuntimeWarning: overflow encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:96: RuntimeWarning: overflow encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:93: RuntimeWarning: invalid value encountered in double_scalars
+  dy[1] = 2.*(y[2]-y[4])*y[0] - 2.*y[1]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:94: RuntimeWarning: invalid value encountered in double_scalars
+  dy[3] = y[0]**2. + 3.*x*2.*y[6]**2. + 5.*x**4.*y[10]**2. - 2.*y[3]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:95: RuntimeWarning: invalid value encountered in double_scalars
+  dy[7] = 2.*(y[2] -y[8])*y[6] -4.*y[7]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:96: RuntimeWarning: invalid value encountered in double_scalars
+  dy[11] = 2.*(y[2]-y[12])*y[10] - 6.*y[11]/x
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+  5%|▍         | 242/5327 [24:53<7:32:54,  5.34s/it]/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+/home/atalia/fgivenx_plots/plots_fgivenx_2.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
