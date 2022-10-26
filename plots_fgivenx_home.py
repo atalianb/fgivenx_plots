@@ -209,7 +209,7 @@ def PPS(r,theta):
     Anfw,rs,phi0,phi1,phi2=theta
     Vc = Vc_m_a_eps_l012(r,theta)
     return Vc
-cbar = plot_contours(PPS,x,samples,contour_line_levels=[1,2],colors=plt.cm.Greys_r,alpha=0.8,parallel=7)#,ny=100)
+cbar = plot_contours(PPS,x,samples,contour_line_levels=[1,2],colors=plt.cm.Greys_r,alpha=0.8,parallel=8)#,ny=100)
 cbar = plt.colorbar(cbar,ticks=[0,1,2])
 cbar.set_ticklabels(['',r'$1\sigma$',r'$2\sigma$'])
 plt.ylabel(r'$v_{c}(r)$[km/s]')
@@ -222,5 +222,5 @@ plt.plot(X0_units,np.sqrt(Vc2_l2),label=r'$\psi_{320}$',linewidth=2.5)
 plt.legend(loc='lower right')
 plt.xlim(0,vecRp_data[-1])
 plt.title(Galaxy_name)
-plt.ylim(top=190)
+plt.ylim(top=65)
 plt.savefig('fgivenx_VcMultiL012_'+Galaxy_name+'_parallel_20porcent_burnin.pdf')

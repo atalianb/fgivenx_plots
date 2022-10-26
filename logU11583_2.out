@@ -1,0 +1,3 @@
+plots_fgivenx_home.py:114: RuntimeWarning: invalid value encountered in true_divide
+  return (units*M)/r
+  0%|          | 0/5073 [00:00<?, ?it/s]
