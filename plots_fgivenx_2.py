@@ -196,11 +196,11 @@ Vc_l2 = Vc_interpol(vecRp_data,X012,Vc2_l2)
 #####
 ##
 #######
-m_a_new = 10.**(chains.T[2][1631:11500])#[2467:12336])
-eps_new = 10.**(chains.T[3][1631:11500])
-phi0_new = 10.**(chains.T[4][1631:11500])
-phi1_new = 10.**(chains.T[5][1631:11500])
-phi2_new = 10.**(chains.T[6][1631:11500])
+m_a_new = 10.**(chains.T[2][3700:12336])#[2467:12336])
+eps_new = 10.**(chains.T[3][3700:12336])
+phi0_new = 10.**(chains.T[4][3700:12336])
+phi1_new = 10.**(chains.T[5][3700:12336])
+phi2_new = 10.**(chains.T[6][3700:12336])
 samples = np.array([(Anfw,rs,phi0,phi1,phi2) for Anfw,rs,phi0,phi1,phi2 in zip(m_a_new,eps_new,phi0_new,phi1_new,phi2_new)]).copy()
 ####
 nx = 100
