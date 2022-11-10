@@ -153,16 +153,16 @@ def Vc_interpol(r,X,Vc):
     Vc_new = f(r)
     return Vc_new
 ####3
-data_path = "/Users/atalianb/Documents/data_LBSG/data_used_by_Tula/"
-data = np.loadtxt(data_path+'U11583.dat')
-Galaxy_name = 'UGC11583'
+data_path = "/Users/atalianb/Documents/data_LBSG/Blok_McGaugh_& _Rubin_(2001)/"#data_used_by_Tula/"
+data = np.loadtxt(data_path+'U11557.dat')
+Galaxy_name = 'UGC11557'
 vecRp_data = np.array([row[1] for row in data])# galactocentric distance [kpc]
 vecvRp_data = np.array([row[5] for row in data])# rotation velocity [km/s]
 vecerrvRp_data = np.array([row[6] for row in data])# error in rotation velocity [km/s]
-params = np.array([10**(-2.2019089E+01),10**(-3.6561229E+00),
-                10**(-5.4950465E-01),10**(-7.4011439E-01),
-                10**(-2.2617569E+00)])
-path_nested = '/Users/atalianb/Documents/Doctorado/fgivenx_plots/chains/U11583'
+params = np.array([10**(-2.3292979E+01),10**(-3.3444298E+00),
+                10**(-2.2545940E-01),10**(-1.6472437E+00),
+                10**(-7.7599173E-01)])
+path_nested = '/Users/atalianb/Documents/Doctorado/fgivenx_plots/chains/U11557'
 chains = np.loadtxt(path_nested+'/Rotation_phy_RC_nested_dynesty_multi_1.txt')
 phi0 = params[2]
 phi1 = params[3]
@@ -196,11 +196,11 @@ Vc_l2 = Vc_interpol(vecRp_data,X012,Vc2_l2)
 #####
 ##
 #######
-m_a_new = 10.**(chains.T[2][1268:6341])
-eps_new = 10.**(chains.T[3][1268:6341])
-phi0_new = 10.**(chains.T[4][1268:6341])
-phi1_new = 10.**(chains.T[5][1268:6341])
-phi2_new = 10.**(chains.T[6][1268:6341])
+m_a_new = 10.**(chains.T[2][3732:12439])
+eps_new = 10.**(chains.T[3][3732:12439])
+phi0_new = 10.**(chains.T[4][3732:12439])
+phi1_new = 10.**(chains.T[5][3732:12439])
+phi2_new = 10.**(chains.T[6][3732:12439])
 samples = np.array([(Anfw,rs,phi0,phi1,phi2) for Anfw,rs,phi0,phi1,phi2 in zip(m_a_new,eps_new,phi0_new,phi1_new,phi2_new)]).copy()
 ####
 nx = 100
@@ -222,5 +222,6 @@ plt.plot(X0_units,np.sqrt(Vc2_l2),label=r'$\psi_{320}$',linewidth=2.5)
 plt.legend(loc='lower right')
 plt.xlim(0,vecRp_data[-1])
 plt.title(Galaxy_name)
-plt.ylim(top=65)
+plt.ylim(top=100)
+plt.ylim(bottom=0)
 plt.savefig('fgivenx_VcMultiL012_'+Galaxy_name+'_parallel_20porcent_burnin.pdf')
