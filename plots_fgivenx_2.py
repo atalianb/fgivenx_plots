@@ -154,15 +154,15 @@ def Vc_interpol(r,X,Vc):
     return Vc_new
 ####3
 data_path = "/home/atalia/New_simpleMC_version/simplemc/data/data_used_by_Tula/"
-data = np.loadtxt(data_path+'ESO0840411.dat')
-Galaxy_name = 'ESO0840411'
+data = np.loadtxt(data_path+'F730-V1.dat')
+Galaxy_name = 'F730-V1'
 vecRp_data = np.array([row[1] for row in data])# galactocentric distance [kpc]
 vecvRp_data = np.array([row[5] for row in data])# rotation velocity [km/s]
 vecerrvRp_data = np.array([row[6] for row in data])# error in rotation velocity [km/s]
-params = np.array([10**(-2.3195192E+01),10**(-3.6384305E+00),
-                10**(3.3313080E-02),10**(-3.6448789E+00),
-                10**(-2.5654027E-01)])
-path_nested = '/home/atalia/fgivenx_plots/chains/ESO0840411'
+params = np.array([10**(-2.3376454E+01),10**(-3.2174385E+00),
+                10**(-5.7542841E-03),10**(-1.8796041E+00),
+                10**(-9.5776854E-01)])
+path_nested = '/home/atalia/fgivenx_plots/chains/F730-V1'
 chains = np.loadtxt(path_nested+'/Rotation_phy_RC_nested_dynesty_multi_1.txt')
 phi0 = params[2]
 phi1 = params[3]
@@ -196,11 +196,11 @@ Vc_l2 = Vc_interpol(vecRp_data,X012,Vc2_l2)
 #####
 ##
 #######
-m_a_new = 10.**(chains.T[2][3700:12336])#[2467:12336])
-eps_new = 10.**(chains.T[3][3700:12336])
-phi0_new = 10.**(chains.T[4][3700:12336])
-phi1_new = 10.**(chains.T[5][3700:12336])
-phi2_new = 10.**(chains.T[6][3700:12336])
+m_a_new = 10.**(chains.T[2][1808:9041])#[2467:12336])
+eps_new = 10.**(chains.T[3][1808:9041])
+phi0_new = 10.**(chains.T[4][1808:9041])
+phi1_new = 10.**(chains.T[5][1808:9041])
+phi2_new = 10.**(chains.T[6][1808:9041])
 samples = np.array([(Anfw,rs,phi0,phi1,phi2) for Anfw,rs,phi0,phi1,phi2 in zip(m_a_new,eps_new,phi0_new,phi1_new,phi2_new)]).copy()
 ####
 nx = 100
@@ -222,6 +222,6 @@ plt.plot(X0_units,np.sqrt(Vc2_l2),label=r'$\psi_{320}$',linewidth=2.5)
 plt.legend(loc='lower right')
 plt.xlim(0,vecRp_data[-1])
 plt.title(Galaxy_name)
-plt.ylim(top=85)
+plt.ylim(top=170)
 plt.ylim(bottom=0)
 plt.savefig('fgivenx_VcMultiL012_'+Galaxy_name+'_parallel_20porcent_burnin_v2.pdf')

@@ -196,7 +196,7 @@ Vc_l2 = Vc_interpol(vecRp_data,X012,Vc2_l2)
 #####
 ##
 #######
-m_a_new = 10.**(chains.T[2][3732:12439])
+m_a_new = 10.**(chains.T[2][3732:6419])
 eps_new = 10.**(chains.T[3][3732:12439])
 phi0_new = 10.**(chains.T[4][3732:12439])
 phi1_new = 10.**(chains.T[5][3732:12439])
