@@ -196,11 +196,11 @@ Vc_l2 = Vc_interpol(vecRp_data,X012,Vc2_l2)
 #####
 ##
 #######
-m_a_new = 10.**(chains.T[2][2247:6419])
-eps_new = 10.**(chains.T[3][2247:6419])
-phi0_new = 10.**(chains.T[4][2247:6419])
-phi1_new = 10.**(chains.T[5][2247:6419])
-phi2_new = 10.**(chains.T[6][2247:6419])#3732 worked fine
+m_a_new = 10.**(chains.T[2][642:5777])
+eps_new = 10.**(chains.T[3][642:5777])
+phi0_new = 10.**(chains.T[4][642:5777])
+phi1_new = 10.**(chains.T[5][642:5777])
+phi2_new = 10.**(chains.T[6][642:5777])#3732 worked fine
 samples = np.array([(Anfw,rs,phi0,phi1,phi2) for Anfw,rs,phi0,phi1,phi2 in zip(m_a_new,eps_new,phi0_new,phi1_new,phi2_new)]).copy()
 ####
 nx = 100
@@ -224,4 +224,4 @@ plt.xlim(0,vecRp_data[-1])
 plt.title(Galaxy_name)
 plt.ylim(top=40)
 plt.ylim(bottom=0)
-plt.savefig('fgivenx_VcMultiL012_'+Galaxy_name+'_parallel_20porcent_burnin_30_1.pdf')
+plt.savefig('fgivenx_VcMultiL012_'+Galaxy_name+'_parallel_20porcent_burnin_20_dif.pdf')

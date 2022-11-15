@@ -154,15 +154,15 @@ def Vc_interpol(r,X,Vc):
     return Vc_new
 ####3
 data_path = "/home/atalia/New_simpleMC_version/simplemc/data/data_used_by_Tula/"
-data = np.loadtxt(data_path+'U11748.dat')
-Galaxy_name = 'UGC11748'
+data = np.loadtxt(data_path+'U11648.dat')
+Galaxy_name = 'UGC11648'
 vecRp_data = np.array([row[1] for row in data])# galactocentric distance [kpc]
 vecvRp_data = np.array([row[5] for row in data])# rotation velocity [km/s]
 vecerrvRp_data = np.array([row[6] for row in data])# error in rotation velocity [km/s]
-params = np.array([10**(-2.3708986E+01),10**(-3.0034393E+00),
-                10**(1.8800781E-01),10**(-5.4776401E+00),
-                10**(-1.3336016E+00)])
-path_nested = '/home/atalia/fgivenx_plots/chains/U11748'
+params = np.array([10**(-2.3464225E+01),10**(-3.2565943E+00),
+                10**(-1.4565523E-02),10**(-1.0716972E+00),
+                10**(-7.6590629E-01)])
+path_nested = '/home/atalia/fgivenx_plots/chains/U11648'
 chains = np.loadtxt(path_nested+'/Rotation_phy_RC_nested_dynesty_multi_1.txt')
 phi0 = params[2]
 phi1 = params[3]
@@ -196,11 +196,11 @@ Vc_l2 = Vc_interpol(vecRp_data,X012,Vc2_l2)
 #####
 ##
 #######
-m_a_new = 10.**(chains.T[2][3128:10428])#[2467:12336])
-eps_new = 10.**(chains.T[3][3128:10428])
-phi0_new = 10.**(chains.T[4][3128:10428])
-phi1_new = 10.**(chains.T[5][3128:10428])
-phi2_new = 10.**(chains.T[6][3128:10428])
+m_a_new = 10.**(chains.T[2][2000:10000])#[2467:12336])
+eps_new = 10.**(chains.T[3][2000:10000])
+phi0_new = 10.**(chains.T[4][2000:10000])
+phi1_new = 10.**(chains.T[5][2000:10000])
+phi2_new = 10.**(chains.T[6][2000:10000])
 samples = np.array([(Anfw,rs,phi0,phi1,phi2) for Anfw,rs,phi0,phi1,phi2 in zip(m_a_new,eps_new,phi0_new,phi1_new,phi2_new)]).copy()
 ####
 nx = 100
@@ -222,6 +222,6 @@ plt.plot(X0_units,np.sqrt(Vc2_l2),label=r'$\psi_{320}$',linewidth=2.5)
 plt.legend(loc='lower right')
 plt.xlim(0,vecRp_data[-1])
 plt.title(Galaxy_name)
-plt.ylim(top=350)
+plt.ylim(top=175)
 plt.ylim(bottom=0)
-plt.savefig('fgivenx_VcMultiL012_'+Galaxy_name+'_parallel_30porcent_burnin.pdf')
+plt.savefig('fgivenx_VcMultiL012_'+Galaxy_name+'_parallel_20porcent_burnin_lim0.pdf')
