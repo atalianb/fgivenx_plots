@@ -163,7 +163,7 @@ params = np.array([10**(-2.2088851E+01),10**(-3.9200725E+00),
                 10**(-1.5121429E-01),10**(-2.9570991E+00),
                 10**(-1.2797958E+00)])
 path_nested = '/Users/atalianb/Documents/Doctorado/fgivenx_plots/chains/ESO1200211'
-chains = np.loadtxt(path_nested+'/Rotation_phy_RC_nested_dynesty_multi_1.txt')
+chains = np.loadtxt(path_nested+'/Copy_Rotation_phy_RC_nested_dynesty_multi_1.txt')
 phi0 = params[2]
 phi1 = params[3]
 phi2 = params[4]
@@ -196,11 +196,11 @@ Vc_l2 = Vc_interpol(vecRp_data,X012,Vc2_l2)
 #####
 ##
 #######
-m_a_new = 10.**(chains.T[2][642:5777])
-eps_new = 10.**(chains.T[3][642:5777])
-phi0_new = 10.**(chains.T[4][642:5777])
-phi1_new = 10.**(chains.T[5][642:5777])
-phi2_new = 10.**(chains.T[6][642:5777])#3732 worked fine
+m_a_new = 10.**(chains.T[2][1238:6188])
+eps_new = 10.**(chains.T[3][1238:6188])
+phi0_new = 10.**(chains.T[4][1238:6188])
+phi1_new = 10.**(chains.T[5][1238:6188])
+phi2_new = 10.**(chains.T[6][1238:6188])#3732 worked fine
 samples = np.array([(Anfw,rs,phi0,phi1,phi2) for Anfw,rs,phi0,phi1,phi2 in zip(m_a_new,eps_new,phi0_new,phi1_new,phi2_new)]).copy()
 ####
 nx = 100
