@@ -163,7 +163,7 @@ params = np.array([10**(-2.2088851E+01),10**(-3.9200725E+00),
                 10**(-1.5121429E-01),10**(-2.9570991E+00),
                 10**(-1.2797958E+00)])
 path_nested = '/Users/atalianb/Documents/Doctorado/fgivenx_plots/chains/ESO1200211'
-chains = np.loadtxt(path_nested+'/Copy_Rotation_phy_RC_nested_dynesty_multi_1.txt')
+chains = np.loadtxt(path_nested+'/Rotation_phy_RC_nested_dynesty_multi_1.txt')
 phi0 = params[2]
 phi1 = params[3]
 phi2 = params[4]
@@ -196,11 +196,11 @@ Vc_l2 = Vc_interpol(vecRp_data,X012,Vc2_l2)
 #####
 ##
 #######
-m_a_new = 10.**(chains.T[2][2166:6188])
-eps_new = 10.**(chains.T[3][2166:6188])
-phi0_new = 10.**(chains.T[4][2166:6188])
-phi1_new = 10.**(chains.T[5][2166:6188])
-phi2_new = 10.**(chains.T[6][2166:6188])#3732 worked fine
+m_a_new = 10.**(chains.T[2][2888:6419])#6188copy
+eps_new = 10.**(chains.T[3][2888:6419])
+phi0_new = 10.**(chains.T[4][2888:6419])
+phi1_new = 10.**(chains.T[5][2888:6419])
+phi2_new = 10.**(chains.T[6][2888:6419])#3732 worked fine
 samples = np.array([(Anfw,rs,phi0,phi1,phi2) for Anfw,rs,phi0,phi1,phi2 in zip(m_a_new,eps_new,phi0_new,phi1_new,phi2_new)]).copy()
 ####
 nx = 100
@@ -224,4 +224,4 @@ plt.xlim(0,vecRp_data[-1])
 plt.title(Galaxy_name)
 plt.ylim(top=40)
 plt.ylim(bottom=0)
-plt.savefig('fgivenx_VcMultiL012_'+Galaxy_name+'_parallel_20porcent_burnin_35_copy.pdf')
+plt.savefig('fgivenx_VcMultiL012_'+Galaxy_name+'_parallel_20porcent_burnin_40.pdf')
