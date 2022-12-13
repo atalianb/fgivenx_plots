@@ -153,7 +153,7 @@ def Vc_interpol(r,X,Vc):
     Vc_new = f(r)
     return Vc_new
 ####3
-data_path = "/home/atalia/New_simpleMC_version/simplemc/data/data_used_by_Tula/"
+data_path = "/home/atalia/New_simpleMC_version/simplemc/data/Blok_McGaugh_&_Rubin_(2001)/"
 data = np.loadtxt(data_path+'ESO3020120.dat')
 Galaxy_name = 'ESO3020120'
 vecRp_data = np.array([row[1] for row in data])# galactocentric distance [kpc]
@@ -162,7 +162,7 @@ vecerrvRp_data = np.array([row[6] for row in data])# error in rotation velocity 
 params = np.array([10**(-2.3162238E+01),10**(-3.4284506E+00),
                 10**(-1.2403674E-02),10**(-3.4100074E+00),10**(-9.4045031E-01)])
 path_nested = '/home/atalia/fgivenx_plots/chains/ESO3020120'
-chains = np.loadtxt(path_nested+'/Rotation_phy_RC_nested_multi_1')
+chains = np.loadtxt(path_nested+'/Rotation_phy_RC_nested_multi_1.txt')
 phi0 = params[2]
 phi1 = params[3]
 phi2 = params[4]
