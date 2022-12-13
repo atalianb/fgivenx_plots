@@ -154,14 +154,14 @@ def Vc_interpol(r,X,Vc):
     return Vc_new
 ####3
 data_path = "/home/atalia/New_simpleMC_version/simplemc/data/Blok_McGaugh_&_Rubin_(2001)/"
-data = np.loadtxt(data_path+'ESO3020120.dat')
-Galaxy_name = 'ESO3020120'
+data = np.loadtxt(data_path+'ESO3050090.dat')
+Galaxy_name = 'ESO3050090'
 vecRp_data = np.array([row[1] for row in data])# galactocentric distance [kpc]
 vecvRp_data = np.array([row[5] for row in data])# rotation velocity [km/s]
 vecerrvRp_data = np.array([row[6] for row in data])# error in rotation velocity [km/s]
-params = np.array([10**(-2.3162238E+01),10**(-3.4284506E+00),
-                10**(-1.2403674E-02),10**(-3.4100074E+00),10**(-9.4045031E-01)])
-path_nested = '/home/atalia/fgivenx_plots/chains/ESO3020120'
+params = np.array([10**(-2.2741898E+01),10**(-3.6425159E+00),10**(-8.5662700E-02),
+10**(-1.5913078E+00),10**(-5.3986859E-01)])
+path_nested = '/home/atalia/fgivenx_plots/chains/ESO3050090'
 chains = np.loadtxt(path_nested+'/Rotation_phy_RC_nested_multi_1.txt')
 phi0 = params[2]
 phi1 = params[3]
@@ -195,11 +195,11 @@ Vc_l2 = Vc_interpol(vecRp_data,X012,Vc2_l2)
 #####
 ##
 #######
-m_a_new = 10.**(chains.T[2][635:3176])#[2467:12336])
-eps_new = 10.**(chains.T[3][635:3176])
-phi0_new = 10.**(chains.T[4][635:3176])
-phi1_new = 10.**(chains.T[5][635:3176])
-phi2_new = 10.**(chains.T[6][635:3176])
+m_a_new = 10.**(chains.T[2][605:3025])#[2467:12336])
+eps_new = 10.**(chains.T[3][605:3025])
+phi0_new = 10.**(chains.T[4][605:3025])
+phi1_new = 10.**(chains.T[5][605:3025])
+phi2_new = 10.**(chains.T[6][605:3025])
 samples = np.array([(Anfw,rs,phi0,phi1,phi2) for Anfw,rs,phi0,phi1,phi2 in zip(m_a_new,eps_new,phi0_new,phi1_new,phi2_new)]).copy()
 ####
 nx = 100
@@ -221,6 +221,6 @@ plt.plot(X0_units,np.sqrt(Vc2_l2),label=r'$\psi_{320}$',linewidth=2.5)
 plt.legend(loc='lower right')
 plt.xlim(0,vecRp_data[-1])
 plt.title(Galaxy_name)
-plt.ylim(top=130)
+plt.ylim(top=80)
 plt.ylim(bottom=0)
 plt.savefig('fgivenx_VcMultiL012_'+Galaxy_name+'_parallel_20porcent_burnin_lim0.pdf')
