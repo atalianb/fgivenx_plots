@@ -159,9 +159,9 @@ Galaxy_name = 'UGC11616'
 vecRp_data = np.array([row[1] for row in data])# galactocentric distance [kpc]
 vecvRp_data = np.array([row[5] for row in data])# rotation velocity [km/s]
 vecerrvRp_data = np.array([row[6] for row in data])# error in rotation velocity [km/s]
-params = np.array([10**(-2.3009007E+01),10**(-3.4582725E+00),
-                10**(6.7552670E-02),10**(-3.3773240E+00),
-                10**(-5.3239413E-01)])
+params = np.array([10**(-2.3272415E+01),10**(-3.2506169E+00),
+                10**(-1.0047396E-02),10**(-1.7274918E+00),
+                10**(-9.5043103E-01)])
 path_nested = '/home/atalia/fgivenx_plots/chains/U11616'
 chains = np.loadtxt(path_nested+'/Rotation_phy_RC_nested_multi_1.txt')
 phi0 = params[2]
