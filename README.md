@@ -1,5 +1,6 @@
 # fgivenx plots
 fgivenx plots and nested sampler results for the multistate case analyzed in the preprint [arxiv: 2305.01127](https://arxiv.org/abs/2305.01127).
+The published version can be consulted at [DOI 10.1088/1475-7516/2023/09/031](https://iopscience.iop.org/article/10.1088/1475-7516/2023/09/031).
 
 * This plots were made using [fgivenx](https://fgivenx.readthedocs.io/en/latest/) [1].
 
